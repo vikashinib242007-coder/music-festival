@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEON BEATS Festival</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #080817;
+            color: white;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 25px 8%;
+            background: #101025;
+        }
+
+        nav h2 {
+            color: #00ffff;
+            letter-spacing: 3px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            min-height: 500px;
+            padding: 100px 20px;
+            background:
+                radial-gradient(circle at top, #5121a8, #080817 65%);
+        }
+
+        .hero h1 {
+            font-size: clamp(45px, 9vw, 90px);
+            color: #00ffff;
+            text-shadow: 0 0 25px #00ffff;
+        }
+
+        .hero p {
+            margin: 25px;
+            color: #ff4de3;
+            font-size: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 15px;
+            color: #080817;
+            background: #00ffff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 30px;
+            box-shadow: 0 0 20px #00ffff;
+        }
+
+        section {
+            padding: 60px 20px;
+        }
+
+        h2 {
+            color: #ff4de3;
+            margin-bottom: 30px;
+        }
+
+        .lineup {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .artist {
+            width: 220px;
+            padding: 35px 20px;
+            background: #15152e;
+            border: 1px solid #673bff;
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        .artist:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 25px #673bff;
+        }
+
+        .artist p {
+            color: #aaaaee;
+            margin-top: 12px;
+        }
+
+        .event {
+            background: #111126;
+            line-height: 2;
+        }
+
+        footer {
+            padding: 25px;
+            color: #8888aa;
+            background: #050510;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>NB⚡</h2>
+        <div>
+            <a href="#about">About</a>
+            <a href="#artists">Artists</a>
+            <a href="#tickets">Tickets</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <p>THE FUTURE SOUNDS HERE</p>
+        <h1>NEON<br>BEATS</h1>
+        <p>One Night. Infinite Energy.</p>
+        <p>📍 Chennai, India | 20 December 2026</p>
+        <a href="#tickets" class="btn">ENTER THE VIBE ↗</a>
+    </header>
+
+    <section id="about">
+        <h2>MORE THAN MUSIC</h2>
+        <p>
+            Step into a world of laser lights, electronic beats,
+            wild energy and unforgettable memories.
+        </p>
+    </section>
+
+    <section id="artists">
+        <h2>THE SOUND SQUAD</h2>
+
+        <div class="lineup">
+            <div class="artist">
+                <h3>🎧 Anirudh </h3>
+                <p>Hits of Ani</p>
+            </div>
+
+            <div class="artist">
+                <h3>🎸AR Rahman </h3>
+                <p> Hits of Rahman </p>
+            </div>
+
+            <div class="artist">
+                <h3>🎤Shreya </h3>
+                <p> Melody hits </p>
+            </div>
+
+            <div class="artist">
+                <h3>🥁 BASS RIOT</h3>
+                <p>Techno • House</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="event">
+        <h2>THE EXPERIENCE</h2>
+        <p>🌌 Neon Light Show</p>
+        <p>🔊 Live Music & DJ Battles</p>
+        <p>🎨 Interactive Art Zone</p>
+        <p>🍔 Food & Chill Lounge</p>
+    </section>
+
+    <section id="tickets">
+        <h2>YOUR NIGHT. YOUR RULES.</h2>
+        <p>EARLY BIRD PASS — ₹999</p>
+        <a href="mailto:festival@example.com?subject=Neon%20Beats%20Ticket"
+           class="btn">GET YOUR PASS 🎟</a>
+    </section>
+
+    <footer>
+        <p>NEON BEATS © 2026</p>
+        <p>TURN UP THE NIGHT. LIGHT UP YOUR SOUL.</p>
+    </footer>
+
+</body>
+</html>
